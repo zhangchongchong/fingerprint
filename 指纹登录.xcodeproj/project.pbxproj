@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974E139B20469D9A00268235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 974E139A20469D9A00268235 /* AppDelegate.m */; };
+		974E139E20469D9A00268235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 974E139D20469D9A00268235 /* ViewController.m */; };
+		974E13A120469D9A00268235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974E139F20469D9A00268235 /* Main.storyboard */; };
+		974E13A320469D9A00268235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974E13A220469D9A00268235 /* Assets.xcassets */; };
+		974E13A620469D9A00268235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974E13A420469D9A00268235 /* LaunchScreen.storyboard */; };
+		974E13A920469D9A00268235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 974E13A820469D9A00268235 /* main.m */; };
+		974E13B320469D9A00268235 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 974E13B220469D9A00268235 /* ____Tests.m */; };
+		974E13BE20469D9A00268235 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 974E13BD20469D9A00268235 /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		974E13AF20469D9A00268235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974E138E20469D9A00268235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 974E139520469D9A00268235;
+			remoteInfo = "指纹登录";
+		};
+		974E13BA20469D9A00268235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974E138E20469D9A00268235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 974E139520469D9A00268235;
+			remoteInfo = "指纹登录";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		974E139620469D9A00268235 /* 指纹登录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "指纹登录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		974E139920469D9A00268235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		974E139A20469D9A00268235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		974E139C20469D9A00268235 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		974E139D20469D9A00268235 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		974E13A020469D9A00268235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		974E13A220469D9A00268235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		974E13A520469D9A00268235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		974E13A720469D9A00268235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974E13A820469D9A00268235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		974E13AE20469D9A00268235 /* 指纹登录Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "指纹登录Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		974E13B220469D9A00268235 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		974E13B420469D9A00268235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974E13B920469D9A00268235 /* 指纹登录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "指纹登录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		974E13BD20469D9A00268235 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		974E13BF20469D9A00268235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		974E139320469D9A00268235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974E13AB20469D9A00268235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974E13B620469D9A00268235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		974E138D20469D9A00268235 = {
+			isa = PBXGroup;
+			children = (
+				974E139820469D9A00268235 /* 指纹登录 */,
+				974E13B120469D9A00268235 /* 指纹登录Tests */,
+				974E13BC20469D9A00268235 /* 指纹登录UITests */,
+				974E139720469D9A00268235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		974E139720469D9A00268235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				974E139620469D9A00268235 /* 指纹登录.app */,
+				974E13AE20469D9A00268235 /* 指纹登录Tests.xctest */,
+				974E13B920469D9A00268235 /* 指纹登录UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		974E139820469D9A00268235 /* 指纹登录 */ = {
+			isa = PBXGroup;
+			children = (
+				974E139920469D9A00268235 /* AppDelegate.h */,
+				974E139A20469D9A00268235 /* AppDelegate.m */,
+				974E139C20469D9A00268235 /* ViewController.h */,
+				974E139D20469D9A00268235 /* ViewController.m */,
+				974E139F20469D9A00268235 /* Main.storyboard */,
+				974E13A220469D9A00268235 /* Assets.xcassets */,
+				974E13A420469D9A00268235 /* LaunchScreen.storyboard */,
+				974E13A720469D9A00268235 /* Info.plist */,
+				974E13A820469D9A00268235 /* main.m */,
+			);
+			path = "指纹登录";
+			sourceTree = "<group>";
+		};
+		974E13B120469D9A00268235 /* 指纹登录Tests */ = {
+			isa = PBXGroup;
+			children = (
+				974E13B220469D9A00268235 /* ____Tests.m */,
+				974E13B420469D9A00268235 /* Info.plist */,
+			);
+			path = "指纹登录Tests";
+			sourceTree = "<group>";
+		};
+		974E13BC20469D9A00268235 /* 指纹登录UITests */ = {
+			isa = PBXGroup;
+			children = (
+				974E13BD20469D9A00268235 /* ____UITests.m */,
+				974E13BF20469D9A00268235 /* Info.plist */,
+			);
+			path = "指纹登录UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		974E139520469D9A00268235 /* 指纹登录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974E13C220469D9A00268235 /* Build configuration list for PBXNativeTarget "指纹登录" */;
+			buildPhases = (
+				974E139220469D9A00268235 /* Sources */,
+				974E139320469D9A00268235 /* Frameworks */,
+				974E139420469D9A00268235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "指纹登录";
+			productName = "指纹登录";
+			productReference = 974E139620469D9A00268235 /* 指纹登录.app */;
+			productType = "com.apple.product-type.application";
+		};
+		974E13AD20469D9A00268235 /* 指纹登录Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974E13C520469D9A00268235 /* Build configuration list for PBXNativeTarget "指纹登录Tests" */;
+			buildPhases = (
+				974E13AA20469D9A00268235 /* Sources */,
+				974E13AB20469D9A00268235 /* Frameworks */,
+				974E13AC20469D9A00268235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974E13B020469D9A00268235 /* PBXTargetDependency */,
+			);
+			name = "指纹登录Tests";
+			productName = "指纹登录Tests";
+			productReference = 974E13AE20469D9A00268235 /* 指纹登录Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		974E13B820469D9A00268235 /* 指纹登录UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974E13C820469D9A00268235 /* Build configuration list for PBXNativeTarget "指纹登录UITests" */;
+			buildPhases = (
+				974E13B520469D9A00268235 /* Sources */,
+				974E13B620469D9A00268235 /* Frameworks */,
+				974E13B720469D9A00268235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974E13BB20469D9A00268235 /* PBXTargetDependency */,
+			);
+			name = "指纹登录UITests";
+			productName = "指纹登录UITests";
+			productReference = 974E13B920469D9A00268235 /* 指纹登录UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		974E138E20469D9A00268235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "张冲";
+				TargetAttributes = {
+					974E139520469D9A00268235 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					974E13AD20469D9A00268235 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 974E139520469D9A00268235;
+					};
+					974E13B820469D9A00268235 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 974E139520469D9A00268235;
+					};
+				};
+			};
+			buildConfigurationList = 974E139120469D9A00268235 /* Build configuration list for PBXProject "指纹登录" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 974E138D20469D9A00268235;
+			productRefGroup = 974E139720469D9A00268235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				974E139520469D9A00268235 /* 指纹登录 */,
+				974E13AD20469D9A00268235 /* 指纹登录Tests */,
+				974E13B820469D9A00268235 /* 指纹登录UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		974E139420469D9A00268235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974E13A620469D9A00268235 /* LaunchScreen.storyboard in Resources */,
+				974E13A320469D9A00268235 /* Assets.xcassets in Resources */,
+				974E13A120469D9A00268235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974E13AC20469D9A00268235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974E13B720469D9A00268235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		974E139220469D9A00268235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974E139E20469D9A00268235 /* ViewController.m in Sources */,
+				974E13A920469D9A00268235 /* main.m in Sources */,
+				974E139B20469D9A00268235 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974E13AA20469D9A00268235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974E13B320469D9A00268235 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974E13B520469D9A00268235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974E13BE20469D9A00268235 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		974E13B020469D9A00268235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 974E139520469D9A00268235 /* 指纹登录 */;
+			targetProxy = 974E13AF20469D9A00268235 /* PBXContainerItemProxy */;
+		};
+		974E13BB20469D9A00268235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 974E139520469D9A00268235 /* 指纹登录 */;
+			targetProxy = 974E13BA20469D9A00268235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		974E139F20469D9A00268235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974E13A020469D9A00268235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		974E13A420469D9A00268235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974E13A520469D9A00268235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		974E13C020469D9A00268235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		974E13C120469D9A00268235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		974E13C320469D9A00268235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P8PM3SXN5;
+				INFOPLIST_FILE = "指纹登录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chong.UITableViewCellHeightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		974E13C420469D9A00268235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P8PM3SXN5;
+				INFOPLIST_FILE = "指纹登录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chong.UITableViewCellHeightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		974E13C620469D9A00268235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P8PM3SXN5;
+				INFOPLIST_FILE = "指纹登录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangcc.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/指纹登录.app/指纹登录";
+			};
+			name = Debug;
+		};
+		974E13C720469D9A00268235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P8PM3SXN5;
+				INFOPLIST_FILE = "指纹登录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangcc.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/指纹登录.app/指纹登录";
+			};
+			name = Release;
+		};
+		974E13C920469D9A00268235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P8PM3SXN5;
+				INFOPLIST_FILE = "指纹登录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangcc.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "指纹登录";
+			};
+			name = Debug;
+		};
+		974E13CA20469D9A00268235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2P8PM3SXN5;
+				INFOPLIST_FILE = "指纹登录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangcc.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "指纹登录";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		974E139120469D9A00268235 /* Build configuration list for PBXProject "指纹登录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974E13C020469D9A00268235 /* Debug */,
+				974E13C120469D9A00268235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974E13C220469D9A00268235 /* Build configuration list for PBXNativeTarget "指纹登录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974E13C320469D9A00268235 /* Debug */,
+				974E13C420469D9A00268235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974E13C520469D9A00268235 /* Build configuration list for PBXNativeTarget "指纹登录Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974E13C620469D9A00268235 /* Debug */,
+				974E13C720469D9A00268235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974E13C820469D9A00268235 /* Build configuration list for PBXNativeTarget "指纹登录UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974E13C920469D9A00268235 /* Debug */,
+				974E13CA20469D9A00268235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 974E138E20469D9A00268235 /* Project object */;
+}
